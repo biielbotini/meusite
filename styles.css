@@ -1,0 +1,50 @@
+body {
+    color:rgb(34, 162, 24);   
+    background:rgb(9, 122, 15);
+    margin: 0px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(155, 242, 16);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+
+.chamada{
+    background: rgb(15, 52, 11);
+    padding-bottom: 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 10px;
+}
+
+img{
+    height: 120px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.categoria{
+    padding-left: 15px;
+    padding-right: 25px;
+}
